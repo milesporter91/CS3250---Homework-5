@@ -1,5 +1,5 @@
 import sys
-from heapq import heappush, heappop
+from .heapq import heappush, heappop
 
 def dijkstra(graph, source):
     dist = {node: sys.maxsize for node in graph}
